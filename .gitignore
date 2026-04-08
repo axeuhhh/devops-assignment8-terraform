@@ -1,0 +1,29 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Sensitive variable files — never commit real credentials
+terraform.tfvars
+*.auto.tfvars
+
+# Packer
+packer_cache/
+*.pkr.hcl.lock
+
+# SSH / secrets
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# OS
+.DS_Store
+Thumbs.db

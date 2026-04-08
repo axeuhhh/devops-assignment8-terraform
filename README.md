@@ -1,6 +1,6 @@
-# CS686 Assignment 8 — Prometheus & Grafana Monitoring with Terraform + Packer
+# CS686 Assignment 9 — Prometheus & Grafana Monitoring with Terraform + Packer
 
-This project extends the Assignment 7 infrastructure to add a full observability stack. Prometheus and Grafana are deployed as dedicated EC2 instances in the private subnet. Every EC2 instance in the environment runs **Node Exporter**, baked into the custom AMI at build time, which exposes CPU and memory metrics on port 9100.
+This project extends the Assignment 8 infrastructure to add a full observability stack. Prometheus and Grafana are deployed as dedicated EC2 instances in the private subnet. Every EC2 instance in the environment runs **Node Exporter**, baked into the custom AMI at build time, which exposes CPU and memory metrics on port 9100.
 
 ---
 
